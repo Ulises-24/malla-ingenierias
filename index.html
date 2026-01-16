@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Curricular Interactiva - USO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <h1>Malla Curricular USO</h1>
+</div>
+
+<div class="controles">
+    <div>
+        <label>Carrera:</label>
+        <select id="carrera" onchange="renderMalla()">
+            <option value="sistemas">Ing. en Sistemas</option>
+            <option value="industrial">Ing. Industrial</option>
+        </select>
+    </div>
+    <div>
+        <label>Periodo Actual:</label>
+        <select id="periodoActual" onchange="renderMalla()">
+            <option value="impar">Ciclo I (Impar)</option>
+            <option value="par">Ciclo II (Par)</option>
+        </select>
+    </div>
+    <div id="stats"><strong>UV:</strong> <span id="uvCount">0/0</span></div>
+    <button class="btn-reset" onclick="reset()">Reiniciar</button>
+
+    <div class="progreso-wrapper">
+        <div class="barra-bg"><div class="barra-fill" id="barraProgreso"></div></div>
+    </div>
+</div>
+
+<div class="malla-container" id="mallaContainer"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

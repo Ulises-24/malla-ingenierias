@@ -1,4 +1,4 @@
-# 📑 Proyecto Mallas Curriculares Colaborativas - [Nombre Universidad]
+# 📑 Proyecto Mallas Curriculares Colaborativas - [Universidad de Sonsonate]
 
 ![Contribuciones](https://img.shields.io/badge/Contribuciones-Abiertas-brightgreen)
 ![Estado](https://img.shields.io/badge/Estado-En_Desarrollo-yellow)
